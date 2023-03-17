@@ -6,6 +6,7 @@ import photo from "./me.jpg";
 const StyledHeader = styled.header`
   display: flex;
   align-items: center;
+  margin-bottom: 3rem;
   padding: 2rem;
   background-color: #87daed;
 
@@ -46,6 +47,9 @@ export default function Header() {
         <ul>
           <li>
             <Link to="/github-portfolio/">Home</Link>
+          </li>
+          <li>
+            <Link to="/github-portfolio/projects">Projects</Link>
           </li>
           <li>
             <Link to="/github-portfolio/contact">Contact</Link>
